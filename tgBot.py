@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 finder = Finder("/app/Data.xlsx")
 
 def generate_preview_texts(texts, name, result_type):
-    previews = ["Выберете номер:"]
+    previews = ["Выберите номер:"]
     for index, text in enumerate(texts, start=1):
         if result_type == 'persona':
             position_line = next((line for line in text.split('\n') if 'Должность:' in line), "Должность: Неизвестна")

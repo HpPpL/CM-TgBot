@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+Data.xlsx
+*.xlsx
+*.xls
+*.rar
+*.zip
+
+.DS_Store
+.idea/
+.vscode/
